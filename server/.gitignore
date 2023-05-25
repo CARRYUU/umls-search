@@ -44,3 +44,6 @@ src/main/resources/*.env
 
 ### external metamaplite jar ###
 lib
+
+### DS_Store ###
+.DS_Store
