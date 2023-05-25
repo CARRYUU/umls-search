@@ -328,7 +328,7 @@ public_mm_lite 中只需要 `data` 底下的檔案，其他都不需要。所以
         ├── metamaplite/
         │   └── public_mm_lite/
         │       └── data/       # UMLS Dataset folders
-        │           ├── ivf/
+        │           ├── ivf/    # Remain only new version of UMLS Dataset is OK
         │           │   ├── 2022AA
         │           │   └── 2022AB
         │           └── ...
@@ -342,6 +342,8 @@ public_mm_lite 中只需要 `data` 底下的檔案，其他都不需要。所以
         │   └── test
         └── ...
 ```
+
+> 需要的套件理論上都在 `pom.xml` 中，但是有些套件可能需要手動安裝到本地的 Maven Repository 中。
 
 Then, install metamaplite and dependencies into local Maven repository.
 
